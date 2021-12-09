@@ -1,0 +1,19 @@
+.bottle {
+  margin: 5px;
+  width: max-content;
+
+  &__element {
+    background-color: #bee5fe;
+    width: 200px;
+
+    &_top {
+      height: 100px;
+      border-radius: 50% 50% 0 0;
+    }
+
+    &_bottom {
+      height: 140px;
+      border-radius: 0 0 20px 20px;
+    }
+  }
+}

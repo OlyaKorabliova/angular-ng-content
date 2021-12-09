@@ -1,14 +1,34 @@
 <div class="app">
-  <div class="app__item">
-    <h3>Meat burger:</h3>
-    <burger>
-      <default-content></default-content>
-    </burger>
+  <h1 class="app__title">&lt;ng-content /&gt; Menu</h1>
+  <div class="app__inner-container">
+    <div class="app__item">
+      <h3>Meat burger:</h3>
+      <burger>
+        <default-content></default-content>
+      </burger>
+    </div>
+    <div class="app__item">
+      <h3>Vegan burger:</h3>
+      <burger>
+        <vegan-content></vegan-content>
+      </burger>
+    </div>
   </div>
-  <div class="app__item">
-    <h3>Vegan burger:</h3>
-    <burger>
-      <vegan-content></vegan-content>
-    </burger>
+  <div class="app__inner-container">
+    <div class="app__item">
+      <h3>Fanta bottle:</h3>
+      <bottle>
+        <fanta-lid bottle-element="lid"></fanta-lid>
+        <fanta-wrap bottle-wrap></fanta-wrap>
+      </bottle>
+    </div>
+
+    <div class="app__item">
+      <h3>Coke bottle:</h3>
+      <bottle>
+        <coke-lid bottle-element="lid"></coke-lid>
+        <coke-wrap bottle-wrap></coke-wrap>
+      </bottle>
+    </div>
   </div>
 </div>
