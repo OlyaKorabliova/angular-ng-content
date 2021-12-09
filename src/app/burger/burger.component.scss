@@ -1,0 +1,38 @@
+.burger {
+  background-color: #c28d34;
+
+  &__wrapper {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 80px 80px 5px 5px;
+    height: 80px;
+  }
+
+  &__bottom {
+    margin-top: 2px;
+    height: 60px;
+    border-radius: 5px;
+  }
+
+  &__seeds {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    position: absolute;
+    top: -3px;
+  }
+
+  &__seed {
+    border-radius: 50% 0;
+    background-color: black;
+    width: 8px;
+    height: 8px;
+  }
+}

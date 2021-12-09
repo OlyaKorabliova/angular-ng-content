@@ -1,0 +1,27 @@
+.default-content {
+  width: 260px;
+  margin: 2px;
+  border-radius: 5px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__meat {
+    border-radius: 25px;
+    height: 40px;
+    background-color: #96351b;
+  }
+
+  &__salat {
+    height: 10px;
+    background-color: #1b8c22;
+  }
+
+  &__tomato {
+    height: 20px;
+    background-color: #ca0000;
+  }
+}
